@@ -1,0 +1,45 @@
+body{
+    display: flex;
+}
+/*button{
+   display: inline-block;
+   background: transparent;
+   letter-spacing: 5px;
+   color: black;
+   font-size: 1rem;
+   padding: 10px;
+   position: relative;
+   overflow: hidden;
+   border-radius: 3px;
+   border: 1px solid red;
+}
+button::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(red, yellow);
+    color: white;
+    z-index: -1;
+    transform: translateX(-100%);
+    transition: all 0.5s 0.1s linear;
+}
+button:hover::before{
+    transform: translateX(0);
+}*/
+    /*home*/
+.home{
+    width: 20px;
+    height: 100px;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    background: red;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.home:hover{
+    width: 50%;
+}
